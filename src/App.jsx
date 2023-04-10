@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeP />} />
           <Route path="/manager" element={<ManagerP />} />
-          <Route path="/cashier" element={<ArchitectP />} />
-          <Route path="/client" element={<LaborerP />} />
+          <Route path="/architect" element={<ArchitectP />} />
+          <Route path="/laborer" element={<LaborerP />} />
         </Routes>
       </AdminLayout>
     </BrowserRouter>

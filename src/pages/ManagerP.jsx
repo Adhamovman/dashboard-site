@@ -2,7 +2,7 @@ import React from "react";
 import { Table, Modal } from "antd";
 import { Button, Form, Input } from "antd";
 import { useState } from "react";
-import { UsergroupAddOutlined } from "@ant-design/icons";
+import { UserAddOutlined } from "@ant-design/icons";
 
 const dataSource = [
   {
@@ -75,7 +75,7 @@ const ManagerP = () => {
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <h1>Managers table</h1>
             <Button onClick={showModal} type="primary">
-              Add manager <UsergroupAddOutlined />
+              Add manager <UserAddOutlined />
             </Button>
           </div>
         )}

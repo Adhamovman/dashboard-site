@@ -1,15 +1,14 @@
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
-  UserOutlined,
   CalculatorOutlined,
   DashboardOutlined,
   BuildOutlined,
+  FolderOpenOutlined,
+  FormatPainterOutlined,
 } from "@ant-design/icons";
 import { Layout, Menu, theme } from "antd";
 import React, { useState } from "react";
-import { MdAdminPanelSettings } from "react-icons/md";
-import { BsPersonCheck } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import "./AdminLayout.css";
 
@@ -22,9 +21,9 @@ const AdminLayout = ({ children }) => {
   } = theme.useToken();
   const menus = [
     { name: "Dashboard", to: "", icon: <DashboardOutlined /> },
-    { name: "Manager", to: "manager", icon: <UserOutlined /> },
-    { name: "Cashier", to: "cashier", icon: <CalculatorOutlined /> },
-    { name: "Client", to: "client", icon: <BsPersonCheck /> },
+    { name: "Manager", to: "manager", icon: <FolderOpenOutlined /> },
+    { name: "Architect", to: "architect", icon: <CalculatorOutlined /> },
+    { name: "Laborer", to: "laborer", icon: <FormatPainterOutlined /> },
   ];
   return (
     <Layout>

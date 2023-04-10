@@ -2,7 +2,7 @@ import React from "react";
 import { Table, Modal } from "antd";
 import { Button, Form, Input } from "antd";
 import { useState } from "react";
-import { UsergroupAddOutlined } from "@ant-design/icons";
+import { UserAddOutlined} from "@ant-design/icons";
 
 const dataSource = [
   {
@@ -83,7 +83,7 @@ const LaborerP = () =>{
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <h1>Laborers table</h1>
             <Button onClick={showModal} type="primary">
-              Add laborer <UsergroupAddOutlined />
+              Add laborer <UserAddOutlined />
             </Button>
           </div>
         )}
