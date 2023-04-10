@@ -1,0 +1,20 @@
+
+.trigger {
+  padding: 0 24px;
+  font-size: 18px;
+}
+.ant-menu-item:active {
+    background-color: rgb(11, 19, 87) !important;
+}
+.ant-menu-item-selected {
+    background-color: rgb(11, 19, 87) !important;
+}
+.logo {
+    margin-top: 16px;
+    text-align: center;
+    color: #e5e5e5;
+    font-size: 28px;
+  }
+  .comp_name {
+    font-size: 12px;
+  }
